@@ -47,6 +47,14 @@
     <string name="menu_viewAddress" msgid="1814744325763202024">"Adresse auf der Karte"</string>
     <string name="menu_makeDefaultNumber" msgid="4838759253316649534">"Als Standardnr. festlegen"</string>
     <string name="menu_makeDefaultEmail" msgid="2599044610375789994">"Standard-E-Mail festlegen"</string>
+
+    <!-- Menu item used to share the plain-text representation of a specific phone number -->
+    <string name="menu_shareNumber">Nummer weiterleiten</string>
+    <!-- Menu item used to share the plain-text representation of a specific email address -->
+    <string name="menu_shareEmail">Email weiterleiten</string>
+    <!-- Menu item used to share the plain-text representation of a specific address -->
+    <string name="menu_shareAddress">Adresse weiterleiten</string>
+
     <string name="menu_splitAggregate" msgid="8368636463748691868">"Teilen"</string>
     <string name="contactsSplitMessage" msgid="5253490235863170269">"Kontakte unterteilt"</string>
     <string name="splitConfirmation_title" msgid="6716467920283502570">"Kontakt teilen"</string>
@@ -99,7 +107,7 @@
     <string name="removePicture" msgid="3041230993155966350">"Symbol entfernen"</string>
     <string name="noContacts" msgid="8579310973261953559">"Keine Kontakte"</string>
     <string name="noMatchingContacts" msgid="4266283206853990471">"Keine passenden Kontakte gefunden"</string>
-    <string name="noContactsWithPhoneNumbers" msgid="1605457050218824269">"Keine Kontakte mit Telefonnummern"</string>
+    <string name="noContactsWithPhoneNumbers" msgid="1605457050218824269">"Keine sichtbaren Kontakte mit Telefonnummern"</string>
     <string name="showFilterPhones" msgid="4184858075465653970">"Nur Kontakte mit Telefon"</string>
     <string name="showFilterPhonesDescrip" msgid="6644443248815191067">"Nur Kontakte mit Telefonnummern anzeigen"</string>
     <string name="headerContactGroups" msgid="2426134991932503843">"Kontakte zum Anzeigen auswählen"</string>
@@ -139,9 +147,13 @@
     <string name="liveFolderAll" msgid="4789010460767506206">"Alle Kontakte"</string>
     <string name="liveFolderFavorites" msgid="3100957542927222282">"Markierte Kontakte"</string>
     <string name="liveFolderPhone" msgid="3739376066610926780">"Kontakte mit Telefonnummern"</string>
-    <string name="menu_sendTextMessage" msgid="6937343460284499306">"Textnachricht senden"</string>
+    <string name="menu_sendTextMessage" msgid="6937343460284499306">"SMS/MMS senden"</string>
     <string name="recentCalls_callNumber" msgid="1756372533999226126">"<xliff:g id="NAME">%s</xliff:g> anrufen"</string>
     <string name="recentCalls_editNumberBeforeCall" msgid="7756171675833267857">"Nr. vor Anruf bearbeiten"</string>
+
+    <!--Menu item used to add a number from the call log to Blacklist  -->
+    <string name="recentCalls_addToBlacklist">Zur Blacklist hinzufügen</string>
+
     <string name="recentCalls_addToContact" msgid="1429899535546487008">"Zu Kontakten hinzufügen"</string>
     <string name="recentCalls_removeFromRecentList" msgid="401662244636511330">"Aus Anrufliste entfernen"</string>
     <string name="recentCalls_deleteAll" msgid="6352364392762163704">"Anrufliste löschen"</string>
@@ -158,8 +170,8 @@
     <string name="dialerDialpadHintText" msgid="5824490365898349041">"Nummer wählen"</string>
     <string name="simContacts_emptyLoading" msgid="6700035985448642408">"Ladevorgang von SIM-Karte läuft..."</string>
     <string name="simContacts_title" msgid="27341688347689769">"Kontakte auf SIM-Karte"</string>
-    <string name="noContactsHelpTextWithSyncForCreateShortcut" msgid="801504710275614594">"Sie haben keine Kontakte. Wenn Sie gerade ein Konto hinzugefügt haben, kann die Synchronisierung der Kontakte einige Minuten dauern."</string>
-    <string name="noContactsHelpTextForCreateShortcut" msgid="3081286388667108335">"Sie haben keine Kontakte."</string>
+    <string name="noContactsHelpTextWithSyncForCreateShortcut" msgid="801504710275614594">"Es sind keine Kontakte vorhanden. Wenn Sie gerade ein Konto hinzugefügt haben, kann die Synchronisierung der Kontakte einige Minuten dauern."</string>
+    <string name="noContactsHelpTextForCreateShortcut" msgid="3081286388667108335">"Es sind keine Kontakte vorhanden."</string>
     <string name="noContactsHelpText" msgid="6788487368878712350">"Es sind keine Kontakte vorhanden."\n\n"Drücken Sie zum Hinzufügen von Kontakten die "<font fgcolor="#ffffffff"><b>"Menütaste"</b></font>" und berühren Sie anschließend "\n" "\n<li><font fgcolor="#ffffffff"><b>"Konten"</b></font>", um ein Konto mit Kontakten, die Sie mit dem Telefon synchronisieren möchten, hinzuzufügen oder zu konfigurieren."\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt"</b></font>", um einen neuen Kontakt von Grund auf zu erstellen."\n</li>\n<li><font fgcolor="#ffffffff"><b>"Importieren/Exportieren"</b></font>\n</li></string>
     <string name="noContactsHelpTextWithSync" msgid="3734101165712848179">"Es sind keine Kontakte vorhanden. Wenn Sie gerade ein Konto hinzugefügt haben, kann es einige Minuten dauern, bis die Kontakte synchronisiert sind."\n\n"Drücken Sie zum Hinzufügen von Kontakten die "<font fgcolor="#ffffffff"><b>"Menütaste"</b></font>" und tippen Sie anschließend auf "\n" "\n<li><font fgcolor="#ffffffff"><b>"Konten"</b></font>", um ein Konto mit Kontakten, die Sie mit dem Telefon synchronisieren möchten, hinzuzufügen oder zu konfigurieren."\n" "</li>\n<li><font fgcolor="#ffffffff"><b>"Anzeigeoptionen"</b></font>", um zu ändern, welche Kontakte angezeigt werden."\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt"</b></font>", um einen neuen Kontakt von Grund auf zu erstellen."\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Importieren/Exportieren"</b></font>\n</li></string>
     <string name="noContactsNoSimHelpText" msgid="6553845386917463292">"Es sind keine Kontakte vorhanden."\n\n"Drücken Sie zum Hinzufügen von Kontakten die "<font fgcolor="#ffffffff"><b>"Menütaste"</b></font>" und berühren Sie anschließend "\n" "\n<li><font fgcolor="#ffffffff"><b>"Konten"</b></font>", um ein Konto mit Kontakten, die Sie mit dem Telefon synchronisieren möchten, hinzuzufügen oder zu konfigurieren."\n</li>" "\n<li><font fgcolor="#ffffffff"><b>"Neuer Kontakt"</b></font>", um einen neuen Kontakt von Grund auf zu erstellen."\n</li>\n<li><font fgcolor="#ffffffff"><b>"Importieren/Exportieren"</b></font>\n</li></string>
@@ -214,7 +226,7 @@
     <string name="import_from_sdcard" product="default" msgid="8550360976693202816">"Von SD-Karte importieren"</string>
     <string name="export_to_sdcard" product="nosdcard" msgid="7201274701382901259">"In USB-Speicher exportieren"</string>
     <string name="export_to_sdcard" product="default" msgid="2597105442616166277">"Auf SD-Karte exportieren"</string>
-    <string name="share_visible_contacts" msgid="890150378880783797">"Sichtbare Kontakte weiterleiten"</string>
+    <string name="share_visible_contacts" msgid="890150378880783797">"Sichtbare Kontakte weitergeben"</string>
     <string name="import_one_vcard_string" msgid="9059163467020328433">"Eine VCard-Datei importieren"</string>
     <string name="import_multiple_vcard_string" msgid="3810226492811062392">"Mehrere VCard-Dateien importieren"</string>
     <string name="import_all_vcard_string" msgid="5518136113853448474">"Alle VCard-Dateien importieren"</string>
@@ -264,12 +276,16 @@
     <string name="quickcontact_missing_app" msgid="4600366393134289038">"Für diese Aktion wurde keine Anwendung gefunden."</string>
     <string name="quickcontact_remember_choice" msgid="5964536411579749424">"Diese Auswahl speichern"</string>
     <string name="quickcontact_missing_name" msgid="5590266114306996632">"Unbekannt"</string>
+
+    <!-- Text that is shown in the Badge, when there is no data to display -->
+    <string name="quickcontact_no_data">Keine Daten</string>
+
     <string name="menu_accounts" msgid="8499114602017077970">"Konten"</string>
     <string name="menu_import_export" msgid="3765725645491577190">"Importieren/Exportieren"</string>
     <string name="dialog_import_export" msgid="4771877268244096596">"Kontakte importieren/exportieren"</string>
-    <string name="menu_share" msgid="943789700636542260">"Weiterleiten"</string>
-    <string name="share_via" msgid="563121028023030093">"Kontakt weiterleiten über"</string>
-    <string name="share_error" msgid="4374508848981697170">"Dieser Kontakt kann nicht freigegeben werden."</string>
+    <string name="menu_share" msgid="943789700636542260">"Weitergeben"</string>
+    <string name="share_via" msgid="563121028023030093">"Kontakt weitergeben über"</string>
+    <string name="share_error" msgid="4374508848981697170">"Dieser Kontakt kann nicht weitergegeben werden."</string>
     <string name="nameLabelsGroup" msgid="2034640839640477827">"Name"</string>
     <string name="nicknameLabelsGroup" msgid="2891682101053358010">"Alias"</string>
     <string name="organizationLabelsGroup" msgid="2478611760751832035">"Firma/Organisation"</string>
@@ -388,5 +404,108 @@
     <string name="upgrade_out_of_memory_uninstall" msgid="1721798828992091432">"Einige Anwendungen deinstallieren"</string>
     <string name="upgrade_out_of_memory_retry" msgid="8431289830472724609">"Upgrade wiederholen"</string>
     <string name="search_results_for" msgid="8705490885073188513">"Suchergebnisse für: <xliff:g id="QUERY">%s</xliff:g>"</string>
-    <string name="search_results_searching" msgid="7755623475227227314">"Suche..."</string>
+
+    <!-- Wysie: Menu strings -->
+    <string name="menu_preferences">Einstellungen</string>
+
+    <!-- Wysie: Dialer strings -->
+    <string name="dialer_menu_sms">SMS/MMS</string>
+
+    <!-- Wysie: Call log strings -->
+    <string name="recent_calls_clear_call_log">Anrufliste leeren</string>
+    <string name="recent_calls_clear_what">Welche Anrufe?</string>
+    <string name="recent_calls_clear_all">Alle</string>
+    <string name="recent_calls_clear_incoming">Eingehend</string>
+    <string name="recent_calls_clear_outgoing">Ausgehend</string>
+    <string name="recent_calls_clear_missed">Verpasst</string>
+    <string name="alert_clear_call_log_title">Anrufliste leeren</string>
+    <string name="alert_clear_call_log_message">Bist du sicher, dass du die Anrufliste leeren möchtest?</string>
+    <string name="alert_clear_cl_all_incoming">Bist du sicher, dass du alle eingegangenen Anrufe löschen möchtest?</string>
+    <string name="alert_clear_cl_all_outgoing">Bist du sicher, dass du alle ausgegangenen Anrufe löschen möchtest?</string>
+    <string name="alert_clear_cl_all_missed">Bist du sicher, dass du alle verpassten Anrufe löschen möchtest?</string>
+
+    <!-- Wysie: Favourites strings -->
+    <string name="fav_clear_freq">Häufig angerufen leeren</string>
+    <string name="alert_clear_freq_called_msg">Bist du sicher, dass du die Liste der häufig angerufenen Kontakte löschen möchtest?</string>
+
+    <!-- Preferences: Dialer -->
+    <string name="title_last_dialled">Anruftaste holt letzte Nummer</string>
+    <string name="summary_last_dialled">Letzt gewählte Nummer holen, solange keine Eingabe.</string>
+    <string name="title_return_to_dialer">Zum Telefon nach Anruf</string>
+    <string name="title_vm_button">Linke Aktionstaste (LAT)</string>
+    <string name="title_vm_handler">Mailbox Verwaltung</string>
+    <string name="title_use_1_for_reg_vm">1 wählt Mailbox</string>
+    <string name="summaryon_use_1_for_reg_vm">Taste 1 wird für Mailbox genutzt.</string>
+    <string name="summaryoff_use_1_for_reg_vm">Taste 1 entsprechend Mailbox Verwaltung.</string>
+    <string name="title_disable_num_check">Nummernprüfung ausschalten</string>
+    <string name="summaryon_disable_num_check">LAT und Menü werden dauerhaft aktiviert.</string>
+    <string name="summaryoff_disable_num_check">LAT und Menü aktiv, wenn Eingabe mind. einer Zahl.</string>
+    <string name="title_enable_haptic_feedback">Nutze haptisches Feedback</string>
+    <string name="title_change_digits_color">Farben der Zahlen</string>
+    <string name="title_digits_color_focused">Fokusiert</string>
+    <string name="title_digits_color_pressed">Gedrückt</string>
+    <string name="title_digits_color_unselected">Normal</string>
+    <string name="title_choose_color">Wähle eine Farbe</string>
+    <string name="instructions_choose_color">Zum Bestätigen auf Mitte der Farbe tippen.\nZum Abbrechen Zurück drücken.</string>
+    <string name="entry_no_vm_handler">Kein (Wähle Mailbox-Number)</string>
+
+    <!-- Preferences: Call log -->
+    <string name="title_cl_exact_time">Genaue Zeiten</string>
+    <string name="summaryon_cl_exact_time">Zeige genaue Zeiten in Anrufliste.</string>
+    <string name="summaryoff_cl_exact_time">Zeige relative Zeiten in Anrufliste.</string>
+    <string name="title_cl_show_seconds">Zeige Sekunden</string>
+    <string name="summary_cl_show_seconds">Zeige Sekunden bei genauen Zeiten in Anrufliste.</string>
+    <string name="title_cl_ask_before_clear">Anrufliste löschen bestätigen</string>
+    <string name="summaryon_cl_ask_before_clear">Anrufliste löschen mit Bestätigung.</string>
+    <string name="summaryoff_cl_ask_before_clear">Anrufliste löschen ohne Bestätigung.</string>
+
+    <!-- Preferences: Contacts -->
+    <string name="title_contacts_show_pic">Kontaktbilder zeigen</string>
+    <string name="title_contacts_show_dial_button">Zeige Anruftaste</string>
+    <string name="summary_contacts_show_dial_button">Zeige Anruftaste für Kontakte mit Rufnummern.</string>
+    <string name="title_contacts_show_count">Anzahl Kontakte</string>
+    <string name="summary_contacts_show_count">Die Anzahl der Kontakte wird oberhalb der Kontaktliste angezeigt.</string>
+    <string name="title_contacts_show_separators">Alphabetische Trennmarke</string>
+    <string name="summaryon_contacts_show_separators">Alphabetische Trennung wird angezeigt in der Kontaktliste.</string>
+    <string name="summaryoff_contacts_show_separators">Alphabetische Trennung wird nicht angezeigt in der Kontaktliste.</string>
+
+    <!-- Preferences: Contacts - View Contact -->
+    <string name="title_view_contact">Kontakt anzeigen</string>
+    <string name="summary_view_contact">Einstellungen für Ansicht eines Kontaktes ändern.</string>
+    <string name="title_show_text_mobile_only">Textaktionen</string>
+    <string name="summaryon_show_text_mobile_only"> Text/SMS Aktion nur für Mobilfunknummern.</string>
+    <string name="summaryoff_show_text_mobile_only">Text/SMS Aktion für alle Nummern.</string>
+
+    <!-- Preferences: Favourites -->
+    <string name="title_favourites_hide_freq_call">Häufig Gewählte verbergen</string>
+    <string name="summary_favourites_hide_freq_call">(Die Daten werden nicht gelöscht, nur verborgen.)</string>
+    <string name="title_favs_ask_before_clear">Leeren bestätigen</string>
+    <string name="summaryon_favs_ask_before_clear">Leeren der Liste mit Bestätigung.</string>
+    <string name="summaryoff_favs_ask_before_clear">Leeren der Liste ohne Bestätigung.</string>
+
+    <!-- Preferences: Misc -->
+    <string name="title_misc_category">Sonstiges</string>
+    <string name="title_sensor_rotation">Autorotation verwenden</string>
+    <string name="summary_sensor_rotation">Wenn eingeschaltet, werden Systemeinstellungen verwendet."</string>
+    <string name="title_data_font_size">Schriftgröße Kontaktinfo</string>
+    <string name="summary_data_font_size">Die Schriftgröße für die detaillierten Kontaktinformationen einstellen. (Nummer, Email, Adresse, etc.)</string>
+    <string name="title_default_phone_tab">Standard-Tab</string>
+    <string name="summary_default_phone_tab">Dieser Tab wird angezeigt, wenn die Telefonanwendung geöffnet wird.</string>
+
+    <!-- Default Phone Tab strings -->
+    <string name="default_phone_tab_last_used">Zuletzt für Anruf benutzt (Standard)</string>
+    <string name="default_phone_tab_last_viewed">Zuletzt angesehen</string>
+    <string name="default_phone_tab_phone">Telefon</string>
+    <string name="default_phone_tab_call_log">Anrufliste</string>
+    <string name="default_phone_tab_contacts">Kontakte</string>
+    <string name="default_phone_tab_favorites">Favoriten</string>
+
+    <!-- Wysie: About strings -->
+    <string name="title_about">Über</string>
+    <string name="title_about_name">Mod Name</string>
+    <string name="title_about_version">Version</string>
+    <string name="title_about_credits">Danksagung</string>
+    <string name="summary_about_credits">Wysie, ChainsDD, geesun, niuchl, rac2030, sileht und der Rest von XDA! :)</string>
+
+    <string name="search_results_searching" msgid="7755623475227227314">"Suche läuft..."</string>
 </resources>

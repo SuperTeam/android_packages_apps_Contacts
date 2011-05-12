@@ -142,6 +142,8 @@
     <string name="menu_sendTextMessage" msgid="6937343460284499306">"SMSを送信"</string>
     <string name="recentCalls_callNumber" msgid="1756372533999226126">"<xliff:g id="NAME">%s</xliff:g>に発信"</string>
     <string name="recentCalls_editNumberBeforeCall" msgid="7756171675833267857">"発信前に番号を編集"</string>
+    <!--Menu item used to add a number from the call log to Blacklist  -->
+    <string name="recentCalls_addToBlacklist">"拒否リストに追加"</string>
     <string name="recentCalls_addToContact" msgid="1429899535546487008">"連絡先に追加"</string>
     <string name="recentCalls_removeFromRecentList" msgid="401662244636511330">"通話履歴から消去"</string>
     <string name="recentCalls_deleteAll" msgid="6352364392762163704">"通話履歴を全件消去"</string>
@@ -164,7 +166,7 @@
     <string name="noContactsHelpTextWithSync" msgid="3734101165712848179">"表示できる連絡先がありません（アカウントを追加した場合は、連絡先が同期されるまでに数分かかることがあります）。"\n\n"連絡先を追加するには、まず"<font fgcolor="#ffffffff"><b>"MENU"</b></font>"キーを押し: "\n" "\n<li>"電話との同期が可能な連絡先のアカウントを追加または設定する場合は["<font fgcolor="#ffffffff"><b>"アカウント"</b></font>"]をタップします"\n</li>" "\n<li>"表示される連絡先を変更するには["<font fgcolor="#ffffffff"><b>"表示オプション"</b></font>"]をタップします"\n</li>" "\n<li>"新しい連絡先を最初から作成する場合は["<font fgcolor="#ffffffff"><b>"連絡先を新規登録"</b></font>"]をタップします"\n</li>" "\n<li>"["<font fgcolor="#ffffffff"><b>"インポート/エクスポート"</b></font>"]"\n</li></string>
     <string name="noContactsNoSimHelpText" msgid="6553845386917463292">"表示できる連絡先がありません。"\n\n"連絡先を追加するには、まず"<font fgcolor="#ffffffff"><b>"MENU"</b></font>"キーを押し: "\n" "\n<li>"電話との同期が可能な連絡先のアカウントを追加または設定する場合は["<font fgcolor="#ffffffff"><b>"アカウント"</b></font>"]をタップします"\n</li>" "\n<li>"新しい連絡先を最初から作成する場合は["<font fgcolor="#ffffffff"><b>"連絡先を新規登録"</b></font>"]をタップします"\n</li>" "\n<li>"["<font fgcolor="#ffffffff"><b>"インポート/エクスポート"</b></font>"]"\n</li></string>
     <string name="noContactsNoSimHelpTextWithSync" msgid="1122296298361373488">"表示できる連絡先がありません（アカウントを追加した場合は、連絡先が同期されるまでに数分かかることがあります）。"\n\n"連絡先を追加するには、まず"<font fgcolor="#ffffffff"><b>"MENU"</b></font>"キーを押し: "\n" "\n<li>"電話との同期が可能な連絡先のアカウントを追加または設定する場合は["<font fgcolor="#ffffffff"><b>"アカウント"</b></font>"]をタップします"\n</li>" "\n<li>"表示される連絡先を変更するには["<font fgcolor="#ffffffff"><b>"表示オプション"</b></font>"]をタップします"\n</li>" "\n<li>"新しい連絡先を最初から作成する場合は["<font fgcolor="#ffffffff"><b>"連絡先を新規登録"</b></font>"]をタップします"\n</li>" "\n<li>"["<font fgcolor="#ffffffff"><b>"インポート/エクスポート"</b></font>"]"\n</li></string>
-    <string name="noFavoritesHelpText" msgid="3744655776704833277">"お気に入りはありません。"\n\n"お気に入りのリストに連絡先を追加するには: "\n\n"        "<li>"["<b>"連絡先"</b>"]タブをタップします"\n</li>" "\n<li>"お気に入りに追加する連絡先をタップします"\n</li>" "\n<li>"連絡先名の横にあるスターをタップします"\n</li></string>
+    <string name="noFavoritesHelpText" msgid="3744655776704833277">"お気に入りはありません。"\n\n"お気に入りのリストに連絡先を追加するには: "\n\n<li>"["<b>"連絡先"</b>"]タブをタップします"\n</li>" "\n<li>"お気に入りに追加する連絡先をタップします"\n</li>" "\n<li>"連絡先名の横にあるスターをタップします"\n</li></string>
     <string name="liveFolder_all_label" msgid="5961411940473276616">"すべての連絡先"</string>
     <string name="liveFolder_favorites_label" msgid="2674341514070517105">"スター付き"</string>
     <string name="liveFolder_phones_label" msgid="1709786878793436245">"電話"</string>
@@ -389,4 +391,116 @@
     <string name="upgrade_out_of_memory_retry" msgid="8431289830472724609">"アップグレードを再試行"</string>
     <string name="search_results_for" msgid="8705490885073188513">"検索結果: <xliff:g id="QUERY">%s</xliff:g>"</string>
     <string name="search_results_searching" msgid="7755623475227227314">"検索中..."</string>
+
+    <!-- Wysie: Menu strings -->
+    <string name="menu_preferences">"設定"</string>
+
+    <!-- Wysie: Call log strings -->
+    <string name="recent_calls_clear_call_log">"通話履歴を消去"</string>
+    <string name="recent_calls_clear_what">"どれを消去しますか?"</string>
+    <string name="recent_calls_clear_all">"すべて"</string>
+    <string name="recent_calls_clear_incoming">"着信"</string>
+    <string name="recent_calls_clear_outgoing">"発信"</string>
+    <string name="recent_calls_clear_missed">"不在着信"</string>
+    <string name="alert_clear_call_log_title">"すべての履歴を消去"</string>
+    <string name="alert_clear_call_log_message">"すべての通話履歴を消去してもよろしいですか?"</string>
+    <string name="alert_clear_cl_all_incoming">"すべての着信履歴を消去してもよろしいですか?"</string>
+    <string name="alert_clear_cl_all_outgoing">"すべての発信履歴を消去してもよろしいですか?"</string>
+    <string name="alert_clear_cl_all_missed">"すべての不在着信履歴を消去してもよろしいですか?"</string>
+
+    <!-- Wysie: Favourites strings -->
+    <string name="fav_clear_freq">"お気に入りを消去"</string>
+    <string name="alert_clear_freq_called_msg">"すべてのお気に入りを消去してもよろしいですか?"</string>
+
+    <!-- Wysie: Preferences strings -->
+
+    <!-- Preferences: Dialer -->
+    <string name="title_last_dialled">"発信ボタンでリダイヤル"</string>
+    <string name="summary_last_dialled">"番号を入力せずに発信ボタンで最後に発信した番号にリダイヤルする"</string>
+    <string name="title_return_to_dialer">"発信後ダイヤラーに戻る"</string>
+    <string name="title_vm_button">"左ボタン(LAB)"</string>
+    <string name="title_vm_handler">"ボイスメールハンドラ"</string>
+    <string name="title_use_1_for_reg_vm">"1で通常のボイスメール"</string>
+    <string name="summaryon_use_1_for_reg_vm">"1キーを通常のボイスメールにする"</string>
+    <string name="summaryoff_use_1_for_reg_vm">"1キーはボイスメールハンドラに従う"</string>
+    <string name="title_disable_num_check">"番号チェック無効"</string>
+    <string name="summaryon_disable_num_check">"左ボタン(LAB)とメニューは常に有効"</string>
+    <string name="summaryoff_disable_num_check">"左ボタンとメニューは番号が入力されたときのみ有効(ボイスメール以外)"</string>
+    <string name="title_enable_haptic_feedback">"タッチフィードバック"</string>
+    <string name="summary_enable_haptic_feedback">"キーパッドパターンを使用する - CyanogenMod設定で調整できます"</string>
+    <string name="title_change_digits_color">"番号の色を変える"</string>
+    <string name="title_digits_color_pressed">"番号の色 (押下)"</string>
+    <string name="title_digits_color_focused">"番号の色 (フォーカス)"</string>
+    <string name="title_digits_color_unselected">"番号の色 (通常)"</string>
+    <string name="title_choose_color">"色を選択"</string>
+    <string name="instructions_choose_color">"色を確定するために中央をタップ\n戻るボタンでキャンセル"</string>
+    <string name="entry_no_vm_handler">"なし (ボイスメール番号をダイヤル)"</string>
+
+    <!-- Preferences: Call log -->
+    <string name="title_cl_exact_time">"時刻表示"</string>
+    <string name="summaryon_cl_exact_time">"実際の時刻を履歴に表示する"</string>
+    <string name="summaryoff_cl_exact_time">"経過時間を履歴に表示する"</string>
+    <string name="title_cl_show_seconds">"秒を表示"</string>
+    <string name="summary_cl_show_seconds">"時刻に秒を表示する"</string>
+
+    <string name="title_cl_ask_before_clear">"消去の確認"</string>
+    <string name="summaryon_cl_ask_before_clear">"通話履歴を消去する前に確認する"</string>
+    <string name="summaryoff_cl_ask_before_clear">"確認なしに通話履歴を消去する"</string>
+
+    <!-- Preferences: Contacts -->
+    <string name="title_contacts_show_pic">"連絡先の写真を表示"</string>
+    <string name="title_contacts_show_dial_button">"発信ボタンを表示"</string>
+    <string name="summary_contacts_show_dial_button">"連絡先の番号に発信ボタンを表示する"</string>
+    <string name="title_contacts_show_count">"連絡先の数を表示"</string>
+    <string name="summary_contacts_show_count">"連絡先リストのトップに連絡先の数を表示する"</string>
+    <string name="title_contacts_show_separators">"ABCセパレータ"</string>
+    <string name="summaryon_contacts_show_separators">"連絡先リストにアルファベットごとのセパレータを表示する"</string>
+    <string name="summaryoff_contacts_show_separators">"連絡先リストにアルファベットごとのセパレータを表示しない"</string>
+
+    <!-- Preferences: Contacts - View Contact -->
+    <string name="title_view_contact">"連絡先表示"</string>
+    <string name="summary_view_contact">"個別の連絡先を表示するときの設定"</string>
+    <string name="title_show_text_mobile_only">"携帯電話向け機能"</string>
+    <string name="summaryon_show_text_mobile_only">"携帯電話番号にのみ、SMSやテキストアクションを表示する"</string>
+    <string name="summaryoff_show_text_mobile_only">"すべての番号にSMSやテキストアクションを表示する"</string>
+
+    <!-- Preferences: Favourites -->
+    <string name="title_favourites_hide_freq_call">"お気に入りを隠す"</string>
+    <string name="summary_favourites_hide_freq_call">"実際のデータは消去しないが、表示しない"</string>
+    <string name="title_favs_ask_before_clear">"消去する前に確認"</string>
+    <string name="summaryon_favs_ask_before_clear">"お気に入りを消去する前に確認する"</string>
+    <string name="summaryoff_favs_ask_before_clear">"確認をしないでお気に入りを消去する"</string>
+
+    <!-- Preferences: Misc -->
+    <string name="title_misc_category">"その他"</string>
+    <string name="title_sensor_rotation">"回転センサ"</string>
+    <string name="summary_sensor_rotation">"有効にするとシステムの設定にしたがって画面を回転する"</string>
+    <string name="title_data_font_size">連絡先情報のフォントサイズ</string>
+    <string name="summary_data_font_size">連絡先情報の詳細(電話番号,メール,住所など)を表示するフォントサイズを選択できます</string>
+
+    <!-- Wysie: About strings -->
+    <string name="title_about">"情報"</string>
+    <string name="title_about_name">"Mod名"</string>
+    <string name="title_about_version">"バージョン"</string>
+    <string name="title_about_credits">"クレジット"</string>
+
+    <string name="clearConfirmation_title">発信履歴を消去</string>
+    <string name="clearLogConfirmation">すべての発信履歴は削除されます。</string>
+    <string name="quickcontact_no_data">データなし</string>
+
+    <!-- CyanogenMod -->
+    <string name="menu_shareNumber">番号を共有</string>
+    <string name="menu_shareEmail">メールを共有</string>
+    <string name="menu_shareAddress">住所を共有</string>
+    <string name="title_default_phone_tab">デフォルトタブ</string>
+    <string name="summary_default_phone_tab">電話アプリを起動したときにデフォルトで開くタブ</string>
+
+    <!-- Default Phone Tab strings -->
+    <string name="default_phone_tab_last_used">最後に電話をかけるために使用したタブ(デフォルト)</string>
+    <string name="default_phone_tab_last_viewed">最後に表示したタブ</string>
+    <string name="default_phone_tab_phone">電話</string>
+    <string name="default_phone_tab_call_log">履歴</string>
+    <string name="default_phone_tab_contacts">連絡先</string>
+    <string name="default_phone_tab_favorites">お気に入り</string>
+
 </resources>
