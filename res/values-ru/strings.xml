@@ -371,6 +371,8 @@
     <string name="name_phonetic_given" msgid="6853570431394449191">"Имя (транскрипция)"</string>
     <string name="name_phonetic_middle" msgid="8643721493320405200">"Отчество (транскрипция)"</string>
     <string name="name_phonetic_family" msgid="462095502140180305">"Фамилия (транскрипция)"</string>
+    <string name="label_date">Дата</string>
+    <string name="button_clear_date">Очистить</string>
     <string name="account_type_format" msgid="718948015590343010">"Контакт <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
     <string name="from_account_format" msgid="687567483928582084">"из <xliff:g id="SOURCE">%1$s</xliff:g>"</string>
     <string name="use_photo_as_primary" msgid="8807110122951157246">"Использовать эту фотографию"</string>
@@ -399,8 +401,8 @@
     <string name="recent_calls_clear_call_log">Очистить</string>
     <string name="recent_calls_clear_what">Что очистить?</string>
     <string name="recent_calls_clear_all">Все</string>
-    <string name="recent_calls_clear_incoming">Исходящие</string>
-    <string name="recent_calls_clear_outgoing">Входящие</string>
+    <string name="recent_calls_clear_incoming">Входящие</string>
+    <string name="recent_calls_clear_outgoing">Исходящие</string>
     <string name="recent_calls_clear_missed">Пропущенные</string>
     <string name="alert_clear_call_log_title">Очистка истории звонков</string>
     <string name="alert_clear_call_log_message">Вы уверены что хотите очистить всю историю звонков?</string>

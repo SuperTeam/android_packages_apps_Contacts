@@ -1116,6 +1116,12 @@
     <!-- Field title for the phonetic family name of a contact -->
     <string name="name_phonetic_family">Phonetic family name</string>
 
+    <!-- Field title for the date for an event -->
+    <string name="label_date">Date</string>
+
+    <!-- Title of clear button in date picker -->
+    <string name="button_clear_date">Clear</string>
+
     <!-- String describing which account type a contact came from when editing it -->
     <string name="account_type_format"><xliff:g id="source" example="Gmail">%1$s</xliff:g> contact</string>
 
@@ -1268,7 +1274,7 @@
     <!-- Preferences: Misc -->
     <string name="title_misc_category">Miscellaneous</string>
     <string name="title_sensor_rotation">Enable sensor rotation</string>
-    <string name="summary_sensor_rotation">If enabled, it will rotate based on system\'s settings"</string>
+    <string name="summary_sensor_rotation">If enabled, it will rotate based on system\'s settings</string>
     <string name="title_data_font_size">Contact info font size</string>
     <string name="summary_data_font_size">Allows you to choose the size of the font used to display detailed contact information (phone number, email, address, etc.)</string>
     <string name="title_default_phone_tab">Default tab</string>
